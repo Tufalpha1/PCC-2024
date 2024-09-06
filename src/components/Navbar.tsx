@@ -1,6 +1,5 @@
 import pcc from '../assets/img/PCC2024.png'
 import airoverflow from '../assets/img/organizers/airoverflow.png'
-
 import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
