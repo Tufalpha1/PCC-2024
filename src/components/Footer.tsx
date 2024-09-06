@@ -9,7 +9,7 @@ const Footer = () => {
           </div>
         <hr />
         <div className="flex flex-col max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-centerline-clamp-2">
-          <h6 className="py-2 tracking-tighter">Developed by <a href="https://zain-portfolio-pi.vercel.app" className="text-black">Tufalpha1<span className="text-lg font-extrabold">&#8599;</span></a></h6>
+          <h6 className="py-2 tracking-tighter">Developed by <a href="https://airoverflow.com" className="text-black font-semibold">Airoverflow<span className="text-lg font-extrabold">&#8599;</span></a></h6>
         </div>
       </div>
     </footer>
