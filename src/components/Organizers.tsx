@@ -20,17 +20,17 @@ const Organizers = () => {
 
           <div className="grid items-center grid-cols-1 mt-10 gap-y-6 xl:mt-0 sm:grid-cols-3 sm:gap-y-8 lg:grid-cols-6 lg:gap-x-8">
             <img
-              className="object-contain w-auto mx-auto h-12 sm:h-20"
+              className="object-contain w-auto mx-auto h-14 sm:h-20"
               src={nccs}
               alt=""
             />
             <img
-              className="object-contain w-auto mx-auto h-12 sm:h-20"
+              className="object-contain w-auto mx-auto h-16 sm:h-20"
               src={hec}
               alt=""
             />
             <img
-              className="object-contain w-auto mx-auto h-12 sm:h-20"
+              className="object-contain w-auto mx-auto h-14 sm:h-20"
               src={au}
               alt=""
             />
@@ -40,12 +40,12 @@ const Organizers = () => {
               alt=""
             />
             <img
-              className="object-contain w-auto mx-auto h-16 sm:h-28"
+              className="object-contain w-auto mx-auto h-24 sm:h-28"
               src={byteboltsec}
               alt=""
             />
             <img
-              className="object-contain w-auto mx-auto h-12 sm:h-20"
+              className="object-contain w-auto mx-auto h-16 sm:h-20"
               src={airoverflow}
               alt=""
             />
