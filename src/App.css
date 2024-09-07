@@ -87,7 +87,7 @@
 .samurai-container {
   position: relative;
   width: 100%;
-  height: 200vh;
+  height: 100vh;
 }
 
 .left-samurai {
@@ -402,38 +402,10 @@
   }
 }
 
-.form__image {
-  position: absolute;
-  animation: none;
-  opacity: 1;
-  filter: blur(16px);
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: #aa0000;
-  background-position: center;
-  background-size: cover;
-}
-
 .form__logo {
   width: 80%;
   height: auto;
   justify-self: center;
-}
-
-.input {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-
-.text-area {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 100%;
 }
 
 .button {

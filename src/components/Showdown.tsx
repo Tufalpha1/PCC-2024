@@ -1,7 +1,8 @@
 import SamuraiAnimation from "./SamuraiAnimation";
 import pwn from "../assets/img/categories/pwn.png";
 import reverse from "../assets/img/categories/reverse-engineering.png";
-import crypto from "../assets/img/categories/cryptography.png";
+import web from "../assets/img/categories/web-exploitation.png";
+import torii from "../assets/img/torii-gate.png";
 
 const categories = [
   {
@@ -13,15 +14,20 @@ const categories = [
     img: reverse,
   },
   {
-    name: "Cryptography",
-    img: crypto,
+    name: "Web Exploitation",
+    img: web,
   },
 ];
 
 const Showdown = () => {
   return (
     <div className="showdown-container relative mt-56 w-full h-full text-center mx-auto">
-      <div className="px-4">
+      <img
+        src={torii}
+        alt="torii-gate"
+        className="absolute -top-[7rem] sm:-top-[25rem] left-0 right-0 -z-10 mx-auto opacity-50"
+      />
+      <div className="px-4 pt-16 ">
         <h1 className="font-heading text-4xl sm:text-5xl xl:text-6xl 2xl:text-7xl uppercase">
           Introducing{" "}
           <span className="font-ungai linear-wipe text-4xl sm:text-5xl xl:text-[3.5rem] 2xl:text-[5rem] selection:bg-white">
@@ -31,7 +37,7 @@ const Showdown = () => {
         <p className="mt-12 text-base sm:text-lg leading-8 max-w-lg sm:max-w-3xl mx-auto">
           {`Get ready for Showdown—a 1v1 samurai-style duel where teams send their
             top player into battle. Whether it’s reverse engineering, pwn, or
-            cryptography, the first to crack the challenge wins points for their
+            web exploitation, the first to crack the challenge wins points for their
             team.`}
         </p>
       </div>

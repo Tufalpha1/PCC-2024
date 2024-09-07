@@ -8,7 +8,9 @@ const Hero = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto px-8 flex justify-center items-center">
         <div className="z-0 mx-auto max-w-6xl sm:pb-24  sm:max-w-5xl ">
           <h1 className="font-heading uppercase text-3xl sm:text-6xl xl:text-7xl 2xl:text-8xl md:py-2 text-white tracking-wide selection:bg-[#ff0000] selection:text-black">
-            <TextHoverEffect text="2024" />{" "}
+            <span className="text-6xl xl:text-7xl">
+              <TextHoverEffect text="2024" />
+            </span>{" "}
             <span className="cyber-h-white">
               Pakistan Cybersecurity Challenge
             </span>
@@ -28,12 +30,6 @@ const Hero = () => {
               >
                 <button className="btn bg-gradient-to-r from-[#aa0000] to-[#91221E]  text-white my-2">
                   <span className="btn__content">CTF Platform_</span>
-                  <span className="btn__glitch"></span>
-                </button>
-              </a>
-              <a href="/#contact">
-                <button className=" btn bg-gradient-to-r from-[#aa0000] to-[#91221E]  text-white my-2">
-                  <span className="btn__content">Contact Us_</span>
                   <span className="btn__glitch"></span>
                 </button>
               </a>
