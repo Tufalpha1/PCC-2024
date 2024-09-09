@@ -17,10 +17,11 @@ const Hero = () => {
           </h1>
           <div className="sm:flex sm:items-center sm:justify-center">
             <p className="p-4 text-slate-300 sm:max-w-[100%] m-auto text-sm sm:text-base 2xl:text-lg text-left">
-              Pakistan Cyber Security Challenge (PCC) is a hackathon, a
-              capture-the-flag (CTF) event, and a startup challenge (Ideas Cup).
-              PCC event is open to all students from Higher Education
-              Institutions across Pakistan.
+              Pakistan Cyber Security Challenge (PCC) is one of the largest
+              capture-the-flag (CTF) hackathon for cyber security professionals
+              and students. PCC provides a platform for students and
+              professionals to showcase their skills in cybersecurity, creating
+              opportunities for future cybersecurity leaders.
             </p>
             {/* <div className="sm:flex sm:items-center jsm:ustify-evenly max-w-[330px] gap-4 mx-auto p-4">
               <a
@@ -40,6 +41,5 @@ const Hero = () => {
     </section>
   );
 };
-
 
 export default Hero;

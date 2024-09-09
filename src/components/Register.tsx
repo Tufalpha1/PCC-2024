@@ -15,7 +15,7 @@ const Register = () => {
           <div className="form__logo">
             <img src={pccLogo} alt="pcc-logo" />
           </div>
-          <a href="https://forms.gle/qe8yiiwvtXcx31yD6">
+          <a href="https://forms.gle/SWojmBFXMiYxhDuU9">
               <button type="button" className="button w-full">
                 <div className="button__label">Continue</div>
                 <div className="button__icon"></div>

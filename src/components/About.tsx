@@ -13,13 +13,12 @@ const About = () => {
           </h2>
           <div className="py-2 text-sm sm:text-base text-gray-200">
             <p className="my-2">
-              National Center for Cyber Security (NCCS) in collaboration with
-              Pakistan Cyber Emergency Response Team (PKCERT) are organizing
-              ‘Pakistan Cyber Security Challenge’, a Hackathon and
-              Capture-the-Flag (CTF) event, crypto challenge, and a startup
-              challenge (ideas cup). This event is open for students from
-              Universities and all other educational institutions accross
-              Pakistan.
+              AirOverflow in collaboration with National Center for Cyber
+              Security (NCCS) are organizing Pakistan Cyber Security Challenge
+              (PCC), a Hackathon and Capture-the-Flag (CTF) event, crypto
+              challenge, and a startup challenge (ideas cup). This event is open
+              for students from Universities and all other educational
+              institutions across Pakistan.
             </p>
             <p className="my-6">
               In a connected world, digital devices and services have become an
@@ -33,8 +32,7 @@ const About = () => {
               develop and identify a talented pool for a secure resilient,
               robust and cyber secure Pakistan.It will give a unique opportunity
               to students to participate in various competitions and show their
-              mettle. For further details, please visit relevant tabs of this
-              web page.
+              mettle.
             </p>
           </div>
         </div>

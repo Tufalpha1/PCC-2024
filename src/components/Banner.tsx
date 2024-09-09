@@ -16,7 +16,7 @@ const Banner = () => {
                 <span className="btn__glitch"></span>
               </a>
             </div>
-            <div className="cyber-banner font-heading uppercase tracking-wider bg-white text-black">
+            <div className="cyber-banner font-heading text-xs md:text-sm lg:text-base uppercase tracking-wider bg-white text-black">
               5th and 6th November 2024, Air University, Islamabad
             </div>
       </div>

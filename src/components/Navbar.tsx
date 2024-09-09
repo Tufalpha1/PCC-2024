@@ -1,4 +1,3 @@
-import pcc from '../assets/img/PCC2024.png'
 import airoverflow from '../assets/img/organizers/airoverflow.png'
 import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
@@ -22,15 +21,6 @@ export default function Example() {
         className="mx-auto flex max-w-full items-center justify-between p-6 lg:px-8"
         aria-label="Global"
       >
-        <div className="flex gap-8">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">PCC</span>
-            <img
-              className="h-12 w-auto"
-              src={pcc}
-              alt=""
-            />
-          </a>
           <a href="https://airoverflow.com" className="-m-1.5 p-1.5">
             <span className="sr-only">AirOverFlow</span>
             <img
@@ -39,7 +29,6 @@ export default function Example() {
               alt=""
             />
           </a>
-        </div>
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -75,7 +64,7 @@ export default function Example() {
               <span className="sr-only">PCC</span>
               <img
                 className="h-12 w-auto"
-                src={pcc}
+                src={airoverflow}
                 alt=""
               />
             </a>
