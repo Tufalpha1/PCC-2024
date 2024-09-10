@@ -17,8 +17,7 @@ const About = () => {
               Security (NCCS) are organizing Pakistan Cyber Security Challenge
               (PCC), a Hackathon and Capture-the-Flag (CTF) event, crypto
               challenge, and a startup challenge (ideas cup). This event is open
-              for students from Universities and all other educational
-              institutions across Pakistan.
+              for both students and professionals from all across Pakistan.
             </p>
             <p className="my-6">
               In a connected world, digital devices and services have become an

@@ -22,7 +22,7 @@ const Organizers = () => {
               alt=""
             />
             <img
-              className="object-contain w-auto mx-auto h-20 sm:h-24"
+              className="object-contain w-auto mx-auto h-24 sm:h-28"
               src={airoverflow}
               alt=""
             />
