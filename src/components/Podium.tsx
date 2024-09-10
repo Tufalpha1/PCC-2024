@@ -1,4 +1,4 @@
-import podium from '../assets/img/podium.png'
+import podium from "../assets/img/podium.png";
 
 const Podium = () => {
   return (
@@ -11,23 +11,25 @@ const Podium = () => {
                 See your team on the podium
               </p>
               <p className="mt-6 text-base sm:text-lg leading-8">
-                {`Top 3 winners will be rewarded with cash prizes and more. So don't miss out on this.`}
+                Depending on your category (Student/Professional), both the
+                Winner and Runner-Up will be rewarded with cash prizes, and much
+                more.
               </p>
             </div>
           </div>
-          <div className='flex items-start justify-end lg:order-first'>
-              <img
-                src={podium}
-                alt="pcc-podium"
-                className="w-[25rem] ml-auto cyber-box-2 shadow-xl ring-1 ring-gray-400/10 sm:w-[35rem] lg:w-[45rem] 2xl:w-[57rem] max-w-none sm:mx-0 md:-ml-4 lg:-ml-0"
-                width={2432}
-                height={1442}
-              />
+          <div className="flex items-start justify-end lg:order-first">
+            <img
+              src={podium}
+              alt="pcc-podium"
+              className="w-[25rem] ml-auto cyber-box-2 shadow-xl ring-1 ring-gray-400/10 sm:w-[35rem] lg:w-[45rem] 2xl:w-[57rem] max-w-none sm:mx-0 md:-ml-4 lg:-ml-0"
+              width={2432}
+              height={1442}
+            />
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Podium
+export default Podium;

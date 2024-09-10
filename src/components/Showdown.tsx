@@ -3,6 +3,7 @@ import pwn from "../assets/img/categories/pwn.png";
 import reverse from "../assets/img/categories/reverse-engineering.png";
 import web from "../assets/img/categories/web-exploitation.png";
 import torii from "../assets/img/torii-gate.png";
+import showdownUI from "../assets/img/showdown-ui.png"
 
 const categories = [
   {
@@ -61,6 +62,14 @@ const Showdown = () => {
           </div>
         ))}
       </dl>
+      <h1 className="font-headingThin mt-24 sm:mt-44 text-2xl sm:text-3xl 2xl:text-5xl font-bold tracking-tight uppercase">
+        Showdown UI
+      </h1>
+      <img 
+        src={showdownUI}
+        alt="showdown-ui"
+        className="mx-auto w-[30rem] sm:w-[50rem] my-12 shadow-[#ff0000] shadow-2xl"
+      />
       <SamuraiAnimation />
     </div>
   );

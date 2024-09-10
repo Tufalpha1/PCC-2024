@@ -8,49 +8,52 @@ import byteboltsec from "../assets/img/organizers/byteboltsec.png";
 const Organizers = () => {
   return (
     <section
-      className="py-12 bg-gradient-to-r from-[#aa0000] to-[#91221E] sm:py-16 lg:py-56 2xl:py-72  scroll-mt-32"
+      className="py-12 bg-gradient-to-r from-[#aa0000] to-[#91221E] sm:py-16 lg:py-56 2xl:py-72  scroll-mt-32 selection:bg-black selection:text-[#aa0000]"
       id="organizers"
     >
-      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div className="">
+      <div className="px-4 mx-auto max-w-2xl sm:px-6 lg:px-8">
           <h2 className="font-heading uppercase text-4xl sm:text-5xl xl:text-6xl 2xl:text-7xl text-center mx-auto my-16">
-            Organizers &{" "}
-            <span className="stroke text-transparent">Patrons</span>
+            Organizers
           </h2>
-
-          <div className="grid items-center grid-cols-1 mt-10 gap-y-6 xl:mt-0 sm:grid-cols-3 sm:gap-y-8 lg:grid-cols-6 lg:gap-x-8">
+          <div className="grid place-items- grid-cols-1 mt-10 gap-y-6 xl:mt-0 sm:grid-cols-2 sm:gap-y-8">
             <img
-              className="object-contain w-auto mx-auto h-14 sm:h-20"
+              className="object-contain w-auto mx-auto h-16 sm:h-24"
               src={nccs}
               alt=""
             />
             <img
-              className="object-contain w-auto mx-auto h-16 sm:h-20"
-              src={hec}
-              alt=""
-            />
-            <img
-              className="object-contain w-auto mx-auto h-14 sm:h-20"
-              src={au}
-              alt=""
-            />
-            <img
-              className="object-contain w-auto mx-auto h-16 sm:h-24"
-              src={govt}
-              alt=""
-            />
-            <img
-              className="object-contain w-auto mx-auto h-24 sm:h-28"
-              src={byteboltsec}
-              alt=""
-            />
-            <img
-              className="object-contain w-auto mx-auto h-16 sm:h-20"
+              className="object-contain w-auto mx-auto h-20 sm:h-24"
               src={airoverflow}
               alt=""
             />
           </div>
-        </div>
+      </div>
+      <div className="px-4 mx-auto max-w-4xl sm:px-6 lg:px-8 py-12">
+          <h2 className="font-heading uppercase text-4xl sm:text-5xl xl:text-6xl 2xl:text-7xl text-center mx-auto my-16 stroke text-transparent">
+            Patrons
+          </h2>
+          <div className="grid items-center grid-cols-1 mt-10 gap-y-6 xl:mt-0 sm:grid-cols-2 sm:gap-y-8 lg:grid-cols-4 lg:gap-x-8">
+            <img
+              className="object-contain w-auto mx-auto h-20 sm:h-20"
+              src={hec}
+              alt=""
+            />
+            <img
+              className="object-contain w-auto mx-auto h-20 sm:h-20"
+              src={au}
+              alt=""
+            />
+            <img
+              className="object-contain w-auto mx-auto h-20 sm:h-24"
+              src={govt}
+              alt=""
+            />
+            <img
+              className="object-contain w-auto mx-auto h-28 sm:h-28"
+              src={byteboltsec}
+              alt=""
+            />
+          </div>
       </div>
     </section>
   );

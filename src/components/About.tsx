@@ -36,7 +36,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="relative cyber-box bg-gradient-to-r from-[#aa0000] to-[#91221E] flex flex-col items-center justify-center p-8">
+        <div className="relative cyber-box-3 bg-gradient-to-r from-[#aa0000] to-[#91221E] flex flex-col items-center justify-center p-8">
           <img
             src={pcc}
             className="mx-auto my-12 z-0"

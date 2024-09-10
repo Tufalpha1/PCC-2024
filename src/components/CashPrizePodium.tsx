@@ -1,15 +1,15 @@
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 const CashPrizePodium = () => {
   // Animation variants for the podium items
-  const podiumVariant = {
-    hidden: { opacity: 0, y: 50 },  // Start from below and invisible
-    visible: { 
-      opacity: 1, 
-      y: 0,       // Move up to normal position
-      transition: { duration: 0.8, ease: "easeOut" } 
-    }
-  };
+  // const podiumVariant = {
+  //   hidden: { opacity: 0, y: 50 }, // Start from below and invisible
+  //   visible: {
+  //     opacity: 1,
+  //     y: 0, // Move up to normal position
+  //     transition: { duration: 0.8, ease: "easeOut" },
+  //   },
+  // };
 
   return (
     <div className="my-56 max-w-5xl mx-auto scroll-mt-32" id="prize">
@@ -17,12 +17,13 @@ const CashPrizePodium = () => {
         Cash prizes
       </h1>
       <p className="my-8 text-sm sm:text-lg text-center px-4">
-        Participants will have to compete with other teams to identify the
-        vulnerabilities and find solutions to the cyber security problems.
-        Register your team now and get a chance to win a cash award.
+        Depending on your category (Student/Professional), both the Winner and
+        Runner-Up will be rewarded with cash prizes, and much more. The team
+        with the highest points will be crowned <span className="linear-wipe font-ungai selection:bg-black">Shogun</span> - The Winner of
+        Pakistan Cyber Security Challenge 2024
       </p>
-      <div className="podium flex items-end justify-center mx-auto mt-16">
-        {/* Second place */}
+      {/* <div className="podium flex items-end justify-center mx-auto mt-16">
+        
         <motion.div
           className="podium__item sm:cyber-box"
           variants={podiumVariant}
@@ -39,7 +40,7 @@ const CashPrizePodium = () => {
           </div>
         </motion.div>
 
-        {/* First place */}
+        
         <motion.div
           className="podium__item"
           variants={podiumVariant}
@@ -56,7 +57,7 @@ const CashPrizePodium = () => {
           </div>
         </motion.div>
 
-        {/* Third place */}
+        
         <motion.div
           className="podium__item cyber-box-3"
           variants={podiumVariant}
@@ -72,7 +73,7 @@ const CashPrizePodium = () => {
             3
           </div>
         </motion.div>
-      </div>
+      </div> */}
     </div>
   );
 };

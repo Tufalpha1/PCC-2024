@@ -62,7 +62,7 @@ const Categories = () => {
             {categories.map((category) => (
               <div
                 key={category.name}
-                className="relative p-9 bg-black cyber-box"
+                className="relative p-9 bg-black cyber-box-3"
               >
                 <img
                   src={category.img}
