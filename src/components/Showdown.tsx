@@ -3,7 +3,9 @@ import pwn from "../assets/img/categories/pwn.png";
 import reverse from "../assets/img/categories/reverse-engineering.png";
 import web from "../assets/img/categories/web-exploitation.png";
 import torii from "../assets/img/torii-gate.png";
-import showdownUI from "../assets/img/showdown-ui.png"
+import showdownUI from "../assets/img/showdown-ui.png";
+import ThreeDTrophy from "./ThreeDTrophy";
+import ToriiGateScene from "./ToriiGateScene";
 
 const categories = [
   {
@@ -28,7 +30,7 @@ const Showdown = () => {
         alt="torii-gate"
         className="absolute -top-[7rem] sm:-top-[25rem] left-0 right-0 -z-10 mx-auto opacity-50"
       />
-      <div className="px-4 pt-16 ">
+      <div className="px-4 pt-16">
         <h1 className="font-heading text-4xl sm:text-5xl xl:text-6xl 2xl:text-7xl uppercase">
           Introducing{" "}
           <span className="font-ungai linear-wipe text-4xl sm:text-5xl xl:text-[3.5rem] 2xl:text-[5rem] selection:bg-white">
@@ -62,14 +64,25 @@ const Showdown = () => {
           </div>
         ))}
       </dl>
-      <h1 className="font-headingThin mt-24 sm:mt-44 text-2xl sm:text-3xl 2xl:text-5xl font-bold tracking-tight uppercase">
-        Showdown UI
-      </h1>
-      <img 
-        src={showdownUI}
-        alt="showdown-ui"
-        className="mx-auto w-[30rem] sm:w-[50rem] my-12 shadow-[#ff0000] shadow-2xl"
-      />
+      <div className="mx-auto mt-24 sm:mt-[20rem]">
+        <h1 className="font-headingThin text-2xl sm:text-3xl 2xl:text-5xl font-bold tracking-tight uppercase">
+          Showdown UI
+        </h1>
+        <img
+          src={showdownUI}
+          alt="showdown-ui"
+          className="mx-auto w-[30rem] sm:w-[50rem] my-12 shadow-[#ff0000] shadow-2xl"
+        />
+      </div>
+      <div className="relative max-w-5xl mx-auto mt-[20rem] sm:mt-[30rem]">
+        <ThreeDTrophy />
+        <img
+          src="https://i.gifer.com/Z6W8.gif"
+          alt="flowers"
+          className="absolute top-[10rem] sm:left-52 sm:w-[30rem] z-10"
+        />
+        {/* <ToriiGateScene /> */}
+      </div>
       <SamuraiAnimation />
     </div>
   );

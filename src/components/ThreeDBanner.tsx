@@ -13,9 +13,7 @@ const ThreeDBanner = () => {
                 >
                     <img
                         src={pcc}
-                        height="1000"
-                        width="1000"
-                        className="w-full object-covergroup-hover/card:shadow-xl cyber-box z-20 bg-black"
+                        className="w-full object-covergroup-hover/card:shadow-xl cyber-box z-20 bg-transparent"
                         alt="thumbnail"
                     />
                 </CardItem>
