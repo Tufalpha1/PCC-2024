@@ -5,7 +5,6 @@ import web from "../assets/img/categories/web-exploitation.png";
 import torii from "../assets/img/torii-gate.png";
 import showdownUI from "../assets/img/showdown-ui.png";
 import ThreeDTrophy from "./ThreeDTrophy";
-import ToriiGateScene from "./ToriiGateScene";
 
 const categories = [
   {
@@ -81,7 +80,6 @@ const Showdown = () => {
           alt="flowers"
           className="absolute top-[10rem] sm:left-52 sm:w-[30rem] z-10"
         />
-        {/* <ToriiGateScene /> */}
       </div>
       <SamuraiAnimation />
     </div>
