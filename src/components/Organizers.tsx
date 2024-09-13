@@ -15,7 +15,7 @@ const Organizers = () => {
         <h2 className="font-heading uppercase text-4xl sm:text-5xl xl:text-6xl 2xl:text-7xl text-center mx-auto my-16">
           Organizers
         </h2>
-        <div className="grid place-items- grid-cols-1 mt-10 gap-y-6 xl:mt-0 sm:grid-cols-2 sm:gap-y-8">
+        <div className="grid place-items-center grid-cols-1 mt-10 gap-y-6 xl:mt-0 sm:grid-cols-2 sm:gap-y-8">
           <img
             className="object-contain w-auto mx-auto h-24 sm:h-28"
             src={airoverflow}
