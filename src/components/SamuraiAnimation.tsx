@@ -10,7 +10,7 @@ const SamuraiAnimation = () => {
   useEffect(() => {
     const timeline = gsap.timeline({
       scrollTrigger: {
-        trigger: ".showdown-container", // Use the showdown component as the trigger
+        trigger: ".samurai-container", // Use the showdown component as the trigger
         start: "top 80%", // Animation starts when the top of Showdown is at the center of the viewport
         end: "bottom 90%", // Animation ends when the bottom of Showdown is at the center
         scrub: 1,

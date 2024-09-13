@@ -80,11 +80,6 @@ const Showdown = () => {
           alt="flowers"
           className="absolute top-[10rem] sm:left-52 sm:w-[30rem] z-10"
         />
-        {/* <img
-          src="https://i.gifer.com/52O8.gif"
-          alt="city"
-          className="absolute w-[10rem]  top-[5rem] sm:top-72 sm:right-[25rem] sm:w-[15rem] -z-10"
-        /> */}
       </div>
       <SamuraiAnimation />
     </div>
