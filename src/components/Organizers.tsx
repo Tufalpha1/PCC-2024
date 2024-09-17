@@ -8,7 +8,7 @@ import byteboltsec from "../assets/img/organizers/byteboltsec.png";
 const Organizers = () => {
   return (
     <section
-      className="py-12 bg-gradient-to-r from-[#aa0000] to-[#91221E] sm:py-16 lg:py-56 2xl:py-72  scroll-mt-32 selection:bg-black selection:text-[#aa0000]"
+      className="py-12 bg-gradient-to-r from-[#aa0000] to-[#91221E] sm:py-16 lg:py-56 2xl:py-72  scroll-mt-32 selection:bg-black selection:text-white"
       id="organizers"
     >
       <div className="px-4 mx-auto max-w-2xl sm:px-6 lg:px-8">
