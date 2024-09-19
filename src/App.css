@@ -679,43 +679,6 @@
   }
 }
 
-
-.wrapper {
-  display: flex;
-  overflow: hidden;
-  position: relative;
-}
-.wrapper::after,
-.wrapper::before {
-  content: '';
-  position: absolute;
-  top: 0;
-
-  height: 100%;
-  width: 2rem;
-  z-index: 1;
-}
-.wrapper::after {
-  background: linear-gradient(to left, rgb(177, 31, 31), transparent);
-  right: 0;
-}
-.wrapper::before {
-  background: linear-gradient(to right, rgb(177, 31, 31), transparent);
-  left: 0;
-}
-.container {
-  display: flex;
-  animation: marquee 20s linear infinite;
-}
-@keyframes marquee {
-  0% {
-      transform: translateX(0);
-  }
-  100% {
-      transform: translateX(-100%);
-  }
-}
-
 @keyframes slide {
   from {
     transform: translateX(0);
@@ -769,7 +732,3 @@
   }
 }
 
-.logos-slide img {
-  height: 50px;
-  margin: 0 40px;
-}

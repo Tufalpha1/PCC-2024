@@ -8,53 +8,27 @@ const Sponsors = () => {
       <h1 className="font-heading uppercase text-4xl sm:text-5xl xl:text-6xl 2xl:text-7xl text-center mx-auto my-16 bg-gradient-to-r from-[#aa0000] to-[#]">
         Sponsors
       </h1>
-      <div className="logos">
-        <div className="logos-slide flex">
-          <img
-            className="object-contain w-auto mx-auto h-8 sm:h-16"
-            src={offsec}
-            alt="offsec-logo"
-          />
-          <img
-            className="object-contain w-auto mx-auto h-8 sm:h-16 rounded-full"
-            src={parrotsec}
-            alt="parrotsec-logo"
-          />
-          <img
-            className="object-contain w-auto mx-auto h-8 sm:h-24"
-            src={letsdefend}
-            alt="letsdefend-logo"
-          />
-          <img
-            className="object-contain w-auto mx-auto h-8 sm:h-16"
-            src={offsec}
-            alt="offsec-logo"
-          />
-          <img
-            className="object-contain w-auto mx-auto h-8 sm:h-16 rounded-full"
-            src={parrotsec}
-            alt="parrotsec-logo"
-          />
-          <img
-            className="object-contain w-auto mx-auto h-8 sm:h-24"
-            src={letsdefend}
-            alt="letsdefend-logo"
-          />
-          <img
-            className="object-contain w-auto mx-auto h-8 sm:h-16"
-            src={offsec}
-            alt="offsec-logo"
-          />
-          <img
-            className="object-contain w-auto mx-auto h-8 sm:h-16 rounded-full"
-            src={parrotsec}
-            alt="parrotsec-logo"
-          />
-          <img
-            className="object-contain w-auto mx-auto h-8 sm:h-24"
-            src={letsdefend}
-            alt="letsdefend-logo"
-          />
+      <div className="logos max-w-full">
+        <div className="logos-slide flex gap-[7rem] items-center justify-center">
+          {/* Original logos */}
+          <img className="object-contain w-auto mx-auto h-12" src={offsec} alt="offsec-logo" />
+          <img className="object-contain w-auto mx-auto h-16 rounded-full" src={parrotsec} alt="parrotsec-logo" />
+          <img className="object-contain w-auto mx-auto h-16" src={letsdefend} alt="letsdefend-logo" />
+          
+          {/* Repeat logos for seamless scroll */}
+          <img className="object-contain w-auto mx-auto h-12" src={offsec} alt="offsec-logo" />
+          <img className="object-contain w-auto mx-auto h-16 rounded-full" src={parrotsec} alt="parrotsec-logo" />
+          <img className="object-contain w-auto mx-auto h-16" src={letsdefend} alt="letsdefend-logo" />
+
+          {/* Repeat logos for seamless scroll */}
+          <img className="object-contain w-auto mx-auto h-12" src={offsec} alt="offsec-logo" />
+          <img className="object-contain w-auto mx-auto h-16 rounded-full" src={parrotsec} alt="parrotsec-logo" />
+          <img className="object-contain w-auto mx-auto h-16" src={letsdefend} alt="letsdefend-logo" />
+
+          {/* Repeat logos for seamless scroll */}
+          <img className="object-contain w-auto mx-auto h-12" src={offsec} alt="offsec-logo" />
+          <img className="object-contain w-auto mx-auto h-16 rounded-full" src={parrotsec} alt="parrotsec-logo" />
+          <img className="object-contain w-auto mx-auto h-16" src={letsdefend} alt="letsdefend-logo" />
         </div>
       </div>
     </section>
