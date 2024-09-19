@@ -14,7 +14,7 @@ const CashPrizePodium = () => {
   return (
     <div className="my-56 max-w-5xl mx-auto scroll-mt-32" id="prize">
       <h1 className="font-heading uppercase text-4xl sm:text-5xl xl:text-6xl 2xl:text-7xl text-center mx-auto my-16">
-        Cash prizes
+        Cash <span className="stroke text-transparent">prizes</span>
       </h1>
       <p className="my-8 text-sm sm:text-lg text-center px-4">
         Depending on your category (Student/Professional), both the Winner and

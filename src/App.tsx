@@ -15,6 +15,7 @@ import Register from "./components/Register";
 import NotFound from "./components/NotFound";
 import Layout from "./components/Layout";
 import Organizers from "./components/Organizers";
+import Sponsors from "./components/Sponsors";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
               <SectionDivider className="bg-white text-black" />
               <Organizers />
               <SectionDivider className="bg-white text-black" />
+              <Sponsors />
               <CashPrizePodium />
               <SectionDivider className="bg-white text-black" />
               <Scoreboard />

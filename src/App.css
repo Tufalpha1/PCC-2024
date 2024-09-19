@@ -678,3 +678,98 @@
     filter: blur(0) brightness(100%) contrast(100%);
   }
 }
+
+
+.wrapper {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+.wrapper::after,
+.wrapper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+
+  height: 100%;
+  width: 2rem;
+  z-index: 1;
+}
+.wrapper::after {
+  background: linear-gradient(to left, rgb(177, 31, 31), transparent);
+  right: 0;
+}
+.wrapper::before {
+  background: linear-gradient(to right, rgb(177, 31, 31), transparent);
+  left: 0;
+}
+.container {
+  display: flex;
+  animation: marquee 20s linear infinite;
+}
+@keyframes marquee {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  background: black;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), black);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), black);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 25s slide infinite linear;
+}
+
+@media (max-width: 768px) {
+  .logos-slide {
+    animation-duration: 10s; /* Speed up the animation on mobile */
+  }
+}
+
+.logos-slide img {
+  height: 50px;
+  margin: 0 40px;
+}
