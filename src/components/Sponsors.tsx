@@ -1,34 +1,82 @@
-import offsec from "../assets/img/sponsors/offsec.webp";
-import parrotsec from "../assets/img/sponsors/parrotsec.png"
-import letsdefend from "../assets/img/sponsors/letsdefend.png"
+import offsec from "../assets/img/sponsors/offsec.jpeg";
+import parrotsec from "../assets/img/sponsors/parrotsec.png";
+import letsdefend from "../assets/img/sponsors/letsdefend.png";
 
 const Sponsors = () => {
   return (
-    <section className="sm:py-16 lg:pt-56 2xl:pt-72 max-w-5xl mx-auto scroll-mt-32" id="sponsors">
+    <section
+      className="sm:py-16 lg:pt-56 2xl:pt-72 max-w-5xl mx-auto scroll-mt-32 selection:bg-white"
+      id="sponsors"
+    >
       <h1 className="font-heading uppercase text-4xl sm:text-5xl xl:text-6xl 2xl:text-7xl text-center mx-auto my-16 bg-gradient-to-r from-[#aa0000] to-[#]">
         Sponsors
       </h1>
-      <div className="logos max-w-full">
-        <div className="logos-slide flex gap-[7rem] items-center justify-center">
-          {/* Original logos */}
-          <img className="object-contain w-auto mx-auto h-12" src={offsec} alt="offsec-logo" />
-          <img className="object-contain w-auto mx-auto h-16 rounded-full" src={parrotsec} alt="parrotsec-logo" />
-          <img className="object-contain w-auto mx-auto h-16" src={letsdefend} alt="letsdefend-logo" />
-          
-          {/* Repeat logos for seamless scroll */}
-          <img className="object-contain w-auto mx-auto h-12" src={offsec} alt="offsec-logo" />
-          <img className="object-contain w-auto mx-auto h-16 rounded-full" src={parrotsec} alt="parrotsec-logo" />
-          <img className="object-contain w-auto mx-auto h-16" src={letsdefend} alt="letsdefend-logo" />
-
-          {/* Repeat logos for seamless scroll */}
-          <img className="object-contain w-auto mx-auto h-12" src={offsec} alt="offsec-logo" />
-          <img className="object-contain w-auto mx-auto h-16 rounded-full" src={parrotsec} alt="parrotsec-logo" />
-          <img className="object-contain w-auto mx-auto h-16" src={letsdefend} alt="letsdefend-logo" />
-
-          {/* Repeat logos for seamless scroll */}
-          <img className="object-contain w-auto mx-auto h-12" src={offsec} alt="offsec-logo" />
-          <img className="object-contain w-auto mx-auto h-16 rounded-full" src={parrotsec} alt="parrotsec-logo" />
-          <img className="object-contain w-auto mx-auto h-16" src={letsdefend} alt="letsdefend-logo" />
+      <div className="relative my-24 w-full overflow-hidden bg-black before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px] before:bg-[linear-gradient(to_right,black_0%,rgba(255,255,255,0)_100%)] before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[100px] after:-scale-x-100 after:bg-[linear-gradient(to_right,black_0%,rgba(255,255,255,0)_100%)] after:content-['']">
+        <div className="animate-infinite-slider flex w-[calc(250px*10)]">
+          <div className="slide flex w-full items-center justify-center">
+            <img
+              className="object-contain w-auto mx-auto h-16"
+              src={offsec}
+              alt="offsec-logo"
+            />
+            <img
+              className="object-contain w-auto mx-auto h-16"
+              src={parrotsec}
+              alt="parrotsec-logo"
+            />
+            <img
+              className="object-contain w-auto mx-auto h-16"
+              src={letsdefend}
+              alt="letsdefend-logo"
+            />
+            <img
+              className="object-contain w-auto mx-auto h-16"
+              src={offsec}
+              alt="offsec-logo"
+            />
+            <img
+              className="object-contain w-auto mx-auto h-16"
+              src={parrotsec}
+              alt="parrotsec-logo"
+            />
+            <img
+              className="object-contain w-auto mx-auto h-16"
+              src={letsdefend}
+              alt="letsdefend-logo"
+            />
+          </div>
+          <div className="slide flex w-full items-center justify-center">
+            <img
+              className="object-contain w-auto mx-auto h-16"
+              src={offsec}
+              alt="offsec-logo"
+            />
+            <img
+              className="object-contain w-auto mx-auto h-16"
+              src={parrotsec}
+              alt="parrotsec-logo"
+            />
+            <img
+              className="object-contain w-auto mx-auto h-16"
+              src={letsdefend}
+              alt="letsdefend-logo"
+            />
+            <img
+              className="object-contain w-auto mx-auto h-16"
+              src={offsec}
+              alt="offsec-logo"
+            />
+            <img
+              className="object-contain w-auto mx-auto h-16"
+              src={parrotsec}
+              alt="parrotsec-logo"
+            />
+            <img
+              className="object-contain w-auto mx-auto h-16"
+              src={letsdefend}
+              alt="letsdefend-logo"
+            />
+          </div>
         </div>
       </div>
     </section>

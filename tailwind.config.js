@@ -34,9 +34,17 @@ export default {
         '2xl': '1536px',
         // => @media (min-width: 1536px) { ... }
       },
-      backgroundImage: {
-        banner: "url('https://static.vecteezy.com/system/resources/previews/012/255/937/original/binary-code-seamless-pattern-digital-binary-code-zero-and-one-background-cyber-security-network-hacker-internet-illustration-vector.jpg')",
-      }
+      animation: {
+        ["infinite-slider"]: "infiniteSlider 20s linear infinite",
+      },
+      keyframes: {
+        infiniteSlider: {
+          "0%": { transform: "translateX(0)" },
+          "100%": {
+            transform: "translateX(calc(-250px * 5))",
+          },
+        },
+      },
     },
   },
   plugins: [addVariablesForColors],
