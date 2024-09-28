@@ -23,7 +23,7 @@ const categories = [
 
 const Showdown = () => {
   return (
-    <div className="samurai-container relative mt-56 w-full text-center mx-auto">
+    <div className="samurai-container relative mt-44 w-full text-center mx-auto">
       <img
         src={torii}
         alt="torii-gate"
@@ -73,7 +73,7 @@ const Showdown = () => {
           className="mx-auto w-[30rem] sm:w-[50rem] my-12 shadow-[#ff0000] shadow-2xl"
         />
       </div>
-      <div className="relative max-w-5xl mx-auto mt-[20rem] sm:mt-[30rem]">
+      <div className="relative max-w-5xl mx-auto mt-[20rem] sm:mt-[10rem]">
         <ThreeDTrophy />
         <img
           src="https://i.gifer.com/Z6W8.gif"

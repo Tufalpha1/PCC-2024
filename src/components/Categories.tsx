@@ -44,7 +44,7 @@ const categories = [
 
 const Categories = () => {
   return (
-    <div className="py-56 bg-white text-black w-full" id="categories">
+    <div className="py-44 bg-white text-black w-full" id="categories">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-full grid-cols-1 gap-x-8 lg:mx-0 lg:max-w-none lg:grid-cols-2 place-items-center ">
           <div>

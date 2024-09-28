@@ -45,7 +45,7 @@ const SamuraiAnimation = () => {
   }, []);
 
   return (
-    <div className="samurai-container relative w-full h-screen">
+    <div className="samurai-container relative w-full">
       <img src={samurai1} alt="Left Samurai" className="left-samurai w-[15rem] sm:w-[30rem] sm:h-[30rem] lg:w-[60rem] lg:h-[60rem]" />
       <img src={samurai2} alt="Right Samurai" className="right-samurai w-[15rem] sm:w-[30rem] sm:h-[30rem] lg:w-[60rem] lg:h-[60rem]" />
     </div>

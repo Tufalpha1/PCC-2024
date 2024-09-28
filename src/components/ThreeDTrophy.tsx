@@ -30,7 +30,7 @@ const ThreeDTrophy = () => {
   }, []);
 
   return (
-    <div className="relative h-screen">
+    <div className="relative">
       <h1 className="font-heading text-2xl sm:text-3xl 2xl:text-5xl font-bold tracking-wide uppercase text-center">
         Presenting you the{" "}
         <span className="font-ungai linear-wipe tracking-normal">
@@ -38,7 +38,7 @@ const ThreeDTrophy = () => {
         </span>
       </h1>
       <CardContainer>
-        <CardBody className="bg-transparent relative group/card w-auto sm:w-[30rem] h-auto rounded-xl p-6">
+        <CardBody className="bg-transparent relative group/card w-[20rem] md:w-[30rem] h-auto rounded-xl p-6">
           <CardItem
             translateZ="100"
             rotateX={20}
@@ -47,7 +47,7 @@ const ThreeDTrophy = () => {
           >
             <img
               src={trophy}
-              className="w-full object-covergroup-hover/card:shadow-xl cyber-box z-20 bg-transparent"
+              className="w-full object-covergroup-hover/card:shadow-xl z-20 bg-transparent"
               alt="thumbnail"
             />
           </CardItem>
