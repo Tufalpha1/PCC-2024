@@ -9,7 +9,7 @@ const Banner = () => {
                 <svg viewBox="0 0 2 2" aria-hidden="true" className="mx-2 inline h-0.5 w-0.5 fill-current">
                   <circle r={1} cx={1} cy={1} />
                 </svg>
-                Registration ends on 30th September 2024.
+                Registration ends on 7th October 2024.
               </p>
               <a href="/#register" className="btn bg-black text-white">
                 <span className="btn__content">Register now_</span>
