@@ -1,6 +1,7 @@
 import offsec from "../assets/img/sponsors/offsec.jpeg";
-import parrotsec from "../assets/img/sponsors/parrotsec.png";
+import parrotctf from "../assets/img/sponsors/parrot-ctf.webp";
 import letsdefend from "../assets/img/sponsors/letsdefend.png";
+import futurenostics from "../assets/img/sponsors/futurenostics.png"
 
 const Sponsors = () => {
   return (
@@ -15,66 +16,46 @@ const Sponsors = () => {
         <div className="animate-infinite-slider flex w-[calc(250px*10)]">
           <div className="slide flex w-full items-center justify-center">
             <img
-              className="object-contain w-auto mx-auto h-16"
+              className="object-contain w-auto mx-auto h-20"
               src={offsec}
               alt="offsec-logo"
             />
             <img
-              className="object-contain w-auto mx-auto h-16"
-              src={parrotsec}
-              alt="parrotsec-logo"
+              className="object-contain w-auto mx-auto h-32"
+              src={parrotctf}
+              alt="parrotctf-logo"
             />
             <img
-              className="object-contain w-auto mx-auto h-16"
+              className="object-contain w-auto mx-auto h-20"
               src={letsdefend}
               alt="letsdefend-logo"
             />
             <img
-              className="object-contain w-auto mx-auto h-16"
-              src={offsec}
-              alt="offsec-logo"
-            />
-            <img
-              className="object-contain w-auto mx-auto h-16"
-              src={parrotsec}
-              alt="parrotsec-logo"
-            />
-            <img
-              className="object-contain w-auto mx-auto h-16"
-              src={letsdefend}
-              alt="letsdefend-logo"
+              className="object-contain w-auto mx-auto h-32"
+              src={futurenostics}
+              alt="futurenostics-logo"
             />
           </div>
           <div className="slide flex w-full items-center justify-center">
             <img
-              className="object-contain w-auto mx-auto h-16"
+              className="object-contain w-auto mx-auto h-20"
               src={offsec}
               alt="offsec-logo"
             />
             <img
-              className="object-contain w-auto mx-auto h-16"
-              src={parrotsec}
-              alt="parrotsec-logo"
+              className="object-contain w-auto mx-auto h-32"
+              src={parrotctf}
+              alt="parrotctf-logo"
             />
             <img
-              className="object-contain w-auto mx-auto h-16"
+              className="object-contain w-auto mx-auto h-20"
               src={letsdefend}
               alt="letsdefend-logo"
             />
             <img
-              className="object-contain w-auto mx-auto h-16"
-              src={offsec}
-              alt="offsec-logo"
-            />
-            <img
-              className="object-contain w-auto mx-auto h-16"
-              src={parrotsec}
-              alt="parrotsec-logo"
-            />
-            <img
-              className="object-contain w-auto mx-auto h-16"
-              src={letsdefend}
-              alt="letsdefend-logo"
+              className="object-contain w-auto mx-auto h-32"
+              src={futurenostics}
+              alt="futurenostics-logo"
             />
           </div>
         </div>
