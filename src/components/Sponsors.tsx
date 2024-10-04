@@ -1,7 +1,9 @@
 import offsec from "../assets/img/sponsors/offsec.jpeg";
 import parrotctf from "../assets/img/sponsors/parrot-ctf.webp";
 import letsdefend from "../assets/img/sponsors/letsdefend.png";
+import rootme from "../assets/img/sponsors/rootme.png"
 import futurenostics from "../assets/img/sponsors/futurenostics.png"
+
 
 const Sponsors = () => {
   return (
@@ -14,7 +16,7 @@ const Sponsors = () => {
       </h1>
       <div className="relative my-24 w-full overflow-hidden bg-black before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px] before:bg-[linear-gradient(to_right,black_0%,rgba(255,255,255,0)_100%)] before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[100px] after:-scale-x-100 after:bg-[linear-gradient(to_right,black_0%,rgba(255,255,255,0)_100%)] after:content-['']">
         <div className="animate-infinite-slider flex w-[calc(250px*10)]">
-          <div className="flex w-full items-center justify-center">
+          <div className="flex w-full items-center justify-center sm:gap-[50px]">
             <img
               className="object-contain w-auto mx-auto h-16 sm:h-20"
               src={offsec}
@@ -31,12 +33,17 @@ const Sponsors = () => {
               alt="letsdefend-logo"
             />
             <img
+              className="object-contain w-auto mx-auto h-12 sm:h-16"
+              src={rootme}
+              alt="rootme-logo"
+            />
+            <img
               className="object-contain w-auto mx-auto h-24 sm:h-32"
               src={futurenostics}
               alt="futurenostics-logo"
             />
           </div>
-          <div className="flex w-full items-center justify-center">
+          <div className="flex w-full items-center justify-center sm:gap-[50px]">
           <img
               className="object-contain w-auto mx-auto h-16 sm:h-20"
               src={offsec}
@@ -51,6 +58,11 @@ const Sponsors = () => {
               className="object-contain w-auto mx-auto h-16 sm:h-20"
               src={letsdefend}
               alt="letsdefend-logo"
+            />
+            <img
+              className="object-contain w-auto mx-auto h-12 sm:h-16"
+              src={rootme}
+              alt="rootme-logo"
             />
             <img
               className="object-contain w-auto mx-auto h-24 sm:h-32"
