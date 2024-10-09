@@ -11,7 +11,6 @@ import SectionDivider from "./components/SectionDivider";
 import Showdown from "./components/Showdown";
 import Badge from "./components/Badge";
 import Winners from "./components/Winners";
-import Register from "./components/Register";
 import NotFound from "./components/NotFound";
 import Layout from "./components/Layout";
 import Organizers from "./components/Organizers";
@@ -43,8 +42,6 @@ function App() {
               <SectionDivider className="bg-black text-white" />
               <Badge />
               <Winners />
-              <SectionDivider className="bg-white text-black" />
-              <Register />
               <SectionDivider className="bg-white text-black" />
             </Layout>
           }
