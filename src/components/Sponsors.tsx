@@ -5,6 +5,7 @@ import rootme from "../assets/img/sponsors/rootme.png";
 import futurenostics from "../assets/img/sponsors/futurenostics.png";
 import hackerone from "../assets/img/sponsors/hackerone.png";
 import hackeronePakistan from "../assets/img/sponsors/hackerone-pakistan.png";
+import ebryx from "../assets/img/sponsors/ebryx.png"
 
 const Sponsors = () => {
   return (
@@ -36,12 +37,15 @@ const Sponsors = () => {
           src={rootme}
           alt="rootme-logo"
         />
-      </div>
-      <div className="my-12 flex flex-col sm:flex-row items-center justify-center gap-x-12 gap-y-6">
-      <img
+         <img
           className="object-contain w-auto h-28 sm:h-32"
           src={futurenostics}
           alt="futurenostics-logo"
+        />
+        <img
+          className="object-contain w-auto h-7 lg:h-8"
+          src={ebryx}
+          alt="ebryx-logo"
         />
         <img
           className="object-contain w-auto h-10"
