@@ -9,12 +9,12 @@ const Banner = () => {
                 <svg viewBox="0 0 2 2" aria-hidden="true" className="mx-2 inline h-0.5 w-0.5 fill-current">
                   <circle r={1} cx={1} cy={1} />
                 </svg>
-                Registration ends on 16th October 2024.
+                Registration ended on 16th October 2024.
               </p>
-              <a href="/#register" className="btn bg-black text-white">
+              {/* <a href="/#register" className="btn bg-black text-white">
                 <span className="btn__content">Register now_</span>
                 <span className="btn__glitch"></span>
-              </a>
+              </a> */}
             </div>
             <div className="cyber-banner font-heading text-xs lg:text-sm xl:text-base uppercase tracking-wider bg-white text-black">
               13th and 14th November 2024, Air University, Islamabad
