@@ -144,14 +144,31 @@
   animation: shine 5s linear infinite;
 }
 
-.linear-wipe {
-  text-align: center;
+.linear-wipe2 {
   background: linear-gradient(
     to right,
-    #ff0000 20%,
-    #aa0000 40%,
-    #710505 60%,
-    #ff033e 80%
+    #19fb9b 20%,
+    #199890 40%,
+    #005f59 60%,
+    #19fb9b 80%
+  );
+  background-size: 200% auto;
+
+  color: #000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shine 5s linear infinite;
+}
+
+.linear-wipe3 {
+  background: linear-gradient(
+    to right,
+    #0098f4 20%,
+    #203281 40%,
+    #203281 60%,
+    #0098f4 80%
   );
   background-size: 200% auto;
 

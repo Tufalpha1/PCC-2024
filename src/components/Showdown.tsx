@@ -1,4 +1,5 @@
 import SamuraiAnimation from "./SamuraiAnimation";
+import redSamurai from "../assets/img/samurai-red.png"
 import pwn from "../assets/img/categories/pwn.png";
 import reverse from "../assets/img/categories/reverse-engineering.png";
 import web from "../assets/img/categories/web-exploitation.png";
@@ -43,10 +44,11 @@ const Showdown = () => {
             team.`}
         </p>
       </div>
-      <h1 className="font-headingThin mt-12 sm:mt-32 text-2xl sm:text-3xl 2xl:text-5xl font-bold tracking-tight uppercase">
+      <img src={redSamurai} alt="red samurai" className="h-44 w-44 sm:h-80 sm:w-80 mx-auto" />
+      <h1 className="font-headingThin mt-12 text-2xl sm:text-3xl 2xl:text-5xl font-bold tracking-tight uppercase">
         Showdown Categories
       </h1>
-      <dl className="flex flex-col md:flex-row items-center justify-center mt-24 max-w-xl mx-auto">
+      <dl className="flex flex-col md:flex-row items-center justify-center mt-12 max-w-xl mx-auto">
         {categories.map((category) => (
           <div
             key={category.name}
