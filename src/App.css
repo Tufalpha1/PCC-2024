@@ -92,13 +92,7 @@
 
 @media (max-width: 1580px) {
   .samurai-container {
-    height: 350vh;
-  }
-}
-
-@media (max-width: 640px) {
-  .samurai-container {
-    height: 370vh;
+    height: 380vh;
   }
 }
 
