@@ -1,23 +1,5 @@
 import arena from "../assets/img/arena.svg";
-import pwn from "../assets/img/categories/pwn.png";
-import reverse from "../assets/img/categories/reverse-engineering.png";
-import web from "../assets/img/categories/web.png";
-import torii from "../assets/img/torii-gate.png";
 
-const categories = [
-  {
-    name: "Binary Exploitation",
-    img: pwn,
-  },
-  {
-    name: "Reverse Engineering",
-    img: reverse,
-  },
-  {
-    name: "Web Exploitation",
-    img: web,
-  },
-];
 
 const Arena = () => {
   return (
