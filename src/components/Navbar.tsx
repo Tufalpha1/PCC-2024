@@ -45,7 +45,7 @@ export default function Example() {
             <a
               key={item.name}
               href={item.href}
-              className="text-xs leading-6 tracking-wider hover:text-[#ff0000]"
+              className="text-xs leading-6 tracking-wider hover:text-[#2CFF05]"
             >
               {item.name}
             </a>

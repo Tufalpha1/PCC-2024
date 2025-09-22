@@ -1,4 +1,4 @@
-import pccLogo from "../assets/img/PCC2024.png";
+import pccLogo from "../assets/img/pcc-2025.png";
 
 const Register = () => {
 
@@ -10,12 +10,12 @@ const Register = () => {
         </h1>
       </div>
       <div className="flex items-center justify-center max-w-full mx-auto">
-        <form className="form bg-[#aa0000]" action="" method="get">
+        <form className="form bg-gradient-to-br from-[#45CC2D] to-[#092004]" action="" method="get">
           <div className="form__image"></div>
           <div className="form__logo">
             <img src={pccLogo} alt="pcc-logo" />
           </div>
-          <a href="https://forms.gle/SWojmBFXMiYxhDuU9">
+          <a href="https://tally.so/r/wkLVao" target="_blank" rel="noreferrer">
               <button type="button" className="button w-full">
                 <div className="button__label">Continue</div>
                 <div className="button__icon"></div>

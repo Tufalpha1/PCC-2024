@@ -1,4 +1,4 @@
-import pcc from "../assets/img/PCC2024.png";
+import pcc from "../assets/img/pcc-2025.png";
 
 const About = () => {
   return (
@@ -35,7 +35,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="relative cyber-box-3 bg-gradient-to-r from-[#aa0000] to-[#91221E] flex flex-col items-center justify-center p-8">
+        <div className="relative cyber-box-3 bg-gradient-to-br from-[#45CC2D] to-[#092004] flex flex-col items-center justify-center p-8">
           <img
             src={pcc}
             className="mx-auto my-12 z-0"

@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="z-0 mx-auto max-w-6xl sm:pb-24 sm:max-w-5xl ">
           <h1 className="font-heading uppercase text-3xl sm:text-6xl xl:text-7xl 2xl:text-8xl md:py-2 text-white tracking-wide selection:bg-[#ff0000] selection:text-black">
             <span className="text-6xl xl:text-7xl">
-              <TextHoverEffect text="2024" />
+              <TextHoverEffect text="2025" />
             </span>{" "}
             <span className="cyber-h-white">
               Pakistan Cybersecurity Challenge
@@ -23,7 +23,7 @@ const Hero = () => {
               professionals to showcase their skills in cybersecurity, creating
               opportunities for future cybersecurity leaders.
             </p>
-            {/* <div className="sm:flex sm:items-center jsm:ustify-evenly max-w-[330px] gap-4 mx-auto p-4">
+            {/* <div className="sm:flex sm:items-center sm:justify-evenly max-w-[330px] gap-4 mx-auto p-4">
               <a
                 href=""
                 target="_blank"

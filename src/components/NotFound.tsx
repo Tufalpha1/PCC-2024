@@ -12,8 +12,8 @@ export default function NotFound() {
           for doesn<span className="font-sans">'</span>t exist
           <span className="font-sans">.</span>
         </p>
-        <a href="/" target="_blank" rel="noreferrer">
-          <button className="btn bg-gradient-to-r from-[#aa0000] to-[#91221E]  text-white my-2">
+        <a href="/">
+          <button className="btn bg-gradient-to-r from-[#45CC2D] to-[#2CFF05]  text-white my-2">
             <span className="btn__content">Homepage_</span>
             <span className="btn__glitch"></span>
           </button>

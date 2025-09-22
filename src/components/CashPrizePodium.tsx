@@ -13,7 +13,7 @@ const CashPrizePodium = () => {
         Depending on your category (Student/Professional), both the Winner and
         Runner-Up will be rewarded with cash prizes, and much more. The team
         with the highest points will be crowned <span className="linear-wipe font-ungai selection:bg-black">Shogun</span> - The Winner of
-        Pakistan Cyber Security Challenge 2024
+        Pakistan Cyber Security Challenge 2025
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 max-w-6xl">
         <div>

@@ -3,7 +3,7 @@ import ThreeDBanner from "./ThreeDBanner";
 const Badge = () => {
   return (
     <section
-      className="overflow-hidden bg-gradient-to-br from-[#aa0000] to-[#91221E] text-white py-24 sm:py-44 selection:bg-black selection:text-white scroll-mt-32"
+      className="overflow-hidden bg-gradient-to-br from-[#45CC2D] to-[#092004] text-white py-24 sm:py-44 selection:bg-black selection:text-white scroll-mt-32"
       id="badge"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">

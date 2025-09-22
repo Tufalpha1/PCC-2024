@@ -3,9 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import About from "./components/About";
 import Categories from "./components/Categories";
 import Hero from "./components/Hero";
-import Podium from "./components/Podium";
 import CashPrizePodium from "./components/CashPrizePodium";
-import Scoreboard from "./components/Scoreboard";
 import ScrollToTopButton from "./components/ScrollToTopButton";
 import SectionDivider from "./components/SectionDivider";
 import Showdown from "./components/Showdown";
@@ -15,6 +13,9 @@ import NotFound from "./components/NotFound";
 import Layout from "./components/Layout";
 import Organizers from "./components/Organizers";
 import Sponsors from "./components/Sponsors";
+import Stats from "./components/Stats";
+import Arena from "./components/Arena";
+import Register from "./components/Register";
 
 function App() {
   return (
@@ -27,22 +28,25 @@ function App() {
             <Layout>
               <Hero />
               <About />
+              <Stats />
               <SectionDivider className="bg-white text-black" />
               <Organizers />
               <SectionDivider className="bg-white text-black" />
               <Sponsors />
               <CashPrizePodium />
               <SectionDivider className="bg-white text-black" />
-              <Scoreboard />
-              <Podium />
-              <SectionDivider className="bg-white text-black" />
+              {/* <Scoreboard />
+              <Podium /> */}
               <Showdown />
-              <SectionDivider className="bg-gradient-to-r from-[#aa0000] to-[#91221E] text-white" />
+              <SectionDivider className="bg-white text-black" />
+              <Arena />
+              <SectionDivider className="bg-gradient-to-r from-[#45cc2d] to-[#092004] text-white" />
               <Categories />
               <SectionDivider className="bg-black text-white" />
               <Badge />
               <Winners />
               <SectionDivider className="bg-white text-black" />
+              <Register />
             </Layout>
           }
         />

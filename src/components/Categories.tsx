@@ -2,8 +2,8 @@ import pwn from "../assets/img/categories/pwn.png";
 import reverse from "../assets/img/categories/reverse-engineering.png";
 import forensics from "../assets/img/categories/forensics.png";
 import crypto from "../assets/img/categories/cryptography.png";
-import web from "../assets/img/categories/web-exploitation.png";
-import misc from "../assets/img/categories/miscellaneous.png";
+import web from "../assets/img/categories/web.png";
+import misc from "../assets/img/categories/misc.png";
 
 const categories = [
   {
@@ -19,7 +19,7 @@ const categories = [
     img: reverse,
   },
   {
-    name: "forensics",
+    name: "Digital Forensics Investigation",
     description:
       "Investigate and analyze digital artifacts to uncover hidden evidence.",
     img: forensics,

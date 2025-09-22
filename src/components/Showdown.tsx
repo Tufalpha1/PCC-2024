@@ -2,7 +2,7 @@ import SamuraiAnimation from "./SamuraiAnimation";
 import redSamurai from "../assets/img/samurai-red.png"
 import pwn from "../assets/img/categories/pwn.png";
 import reverse from "../assets/img/categories/reverse-engineering.png";
-import web from "../assets/img/categories/web-exploitation.png";
+import web from "../assets/img/categories/web.png";
 import torii from "../assets/img/torii-gate.png";
 import showdownUI from "../assets/img/showdown-ui.png";
 import ThreeDTrophy from "./ThreeDTrophy";

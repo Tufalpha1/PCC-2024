@@ -1,6 +1,7 @@
-import winner2023 from "../assets/img/winners/winner-2023.gif";
-import winner2022 from "../assets/img/winners/winner-2022.gif";
-import pcc from "../assets/img/PCC2024.png"
+import winner2024 from "../assets/img/winners/winner-2024.jpg";
+import winner2023 from "../assets/img/winners/winner-2023.jpg";
+import winner2022 from "../assets/img/winners/winner-2022.jpg";
+import pcc from "../assets/img/pcc-2025.png"
 
 const teams = [
     {
@@ -16,17 +17,24 @@ const teams = [
       img: winner2023,
       logo: pcc
     },
+    {
+      name: "PCC 2024",
+      description:
+        "Sudoers",
+      img: winner2024,
+      logo: pcc
+    },
   ];
   
 
 const Winners = () => {
   return (
-    <section className="overflow-hidden bg-gradient-to-tr from-[#aa0000] to-[#91221E] text-white py-24 sm:py-56" id="winners">
+    <section className="overflow-hidden bg-gradient-to-tr from-[#45CC2D] to-[#092004] text-white py-24 sm:py-56" id="winners">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-full text-center">
           <div className="selection:bg-black selection:text-white">
             <h1 className="font-heading mt-2 text-4xl sm:text-6xl 2xl:text-7xl uppercase tracking-wide">
-              Previous Winners of PCC <span className="stroke text-transparent">2022 and 2023</span>
+              Previous Winners of PCC <span className="stroke text-transparent">2022 - 2024</span>
             </h1>
           </div>
           <dl className="mt-24 mx-auto col-span-2 grid grid-cols-1 gap-y-10 text-base leading-7 text-gray-400 sm:grid-cols-2 lg:gap-y-16 max-w-4xl">
@@ -42,7 +50,7 @@ const Winners = () => {
                   <img
                     src={team.logo}
                     alt="pcc logo"
-                    className="hidden md:block mt-6 mx-auto object-contain"
+                    className="hidden md:block mx-auto object-contain"
                   />
                 )}
               </div>
