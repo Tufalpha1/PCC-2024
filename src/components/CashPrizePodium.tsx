@@ -5,7 +5,7 @@ import blueSamurai from "../assets/img/samurai-blue.png"
 const CashPrizePodium = () => {
 
   return (
-    <div className="my-56 max-w-5xl mx-auto scroll-mt-32" id="prize">
+    <div className="my-56 max-w-5xl mx-auto scroll-mt-32 selection:bg-[#45cc2d] selection:text-black" id="prize">
       <h1 className="font-heading uppercase text-4xl sm:text-5xl xl:text-6xl 2xl:text-7xl text-center mx-auto my-16">
         Cash <span className="stroke text-transparent">prizes</span>
       </h1>

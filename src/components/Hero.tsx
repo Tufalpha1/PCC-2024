@@ -3,7 +3,7 @@ import { TextHoverEffect } from "./ui/text-hover-effect";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative w-full pb-12">
+    <section id="home" className="relative w-full pb-12 selection:bg-[#45cc2d] selection:text-black">
       <Banner />
       <div className="max-w-[1240px] w-full h-full mx-auto px-8 flex justify-center items-center">
         <div className="z-0 mx-auto max-w-6xl sm:pb-24 sm:max-w-5xl ">
