@@ -14,7 +14,6 @@ import Layout from "./components/Layout";
 import Organizers from "./components/Organizers";
 import Sponsors from "./components/Sponsors";
 import Stats from "./components/Stats";
-import Warzone from "./components/Warzone";
 import Register from "./components/Register";
 
 function App() {
@@ -38,8 +37,7 @@ function App() {
               {/* <Scoreboard />
               <Podium /> */}
               <Showdown />
-              <SectionDivider className="bg-gradient-to-r from-[#ff0000] to-[#aa0000] text-white" />
-              <Warzone />
+              <SectionDivider className="bg-gradient-to-r from-[#ff0000] to-[#aa0000] text-white" />    
               <SectionDivider className="bg-gradient-to-r from-[#45cc2d] to-[#092004] text-white" />
               <Categories />
               <SectionDivider className="bg-black text-white" />
