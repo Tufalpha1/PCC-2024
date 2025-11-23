@@ -36,8 +36,7 @@ function App() {
               <SectionDivider className="bg-white text-black" />
               {/* <Scoreboard />
               <Podium /> */}
-              <Showdown />
-              <SectionDivider className="bg-gradient-to-r from-[#ff0000] to-[#aa0000] text-white" />    
+              <Showdown />   
               <SectionDivider className="bg-gradient-to-r from-[#45cc2d] to-[#092004] text-white" />
               <Categories />
               <SectionDivider className="bg-black text-white" />
